@@ -23,10 +23,7 @@ let projectData = [
         live: '#',
         tags: '#fullstack'
     },
-
-
 ]
-
 const createProjectCards = (data) => {
     let projectContainer = document.querySelector('.project-container');
 

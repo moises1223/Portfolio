@@ -28,23 +28,31 @@
 
 .card-container:nth-child(1) .card {
     margin-top: 150px;
-    background-color: #1d0c20;
+    background: rgb(74,61,77);
+    background: linear-gradient(68deg, rgba(74,61,77,1) 0%, rgba(29,12,32,1) 100%); 
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+
+
 .card-container:nth-child(2) .card {
-    background-color: #651f71;
+    background: rgb(132,76,141);
+    background: linear-gradient(68deg, rgba(132,76,141,1) 0%, rgba(101,31,113,1) 100%); 
 }
 
 .card-container:nth-child(3) .card {
-    background-color: #7037cd;
+    background: rgb(151,86,255);
+background: linear-gradient(68deg, rgba(151,86,255,1) 0%, rgba(100,38,201,1) 100%); 
 }
 
 .card-container:nth-child(4) .card {
-    background-color: #506ee5;
+    background: rgb(115,139,234);
+    background: linear-gradient(68deg, rgba(115,139,234,1) 0%, rgba(101,24,226,1) 100%); 
 }
 
 .card-container:nth-child(5) .card {
-    background-color: #68b2f8;
+    background: rgb(33,116,194);
+    background: linear-gradient(68deg, rgba(33,116,194,1) 0%, rgba(86,149,209,1) 100%);        
 }
 
 .card-container:nth-child(even) .card {

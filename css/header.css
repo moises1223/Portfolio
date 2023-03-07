@@ -27,6 +27,8 @@
     background: linear-gradient(68deg, rgba(74,67,181,1) 0%, rgba(215,90,90,1) 48%, rgba(209,102,178,1) 100%); 
     padding: 15px;
     border-radius: 5px;
+    color: #fff;
+
     }
 .btn{
     color: #663938;
