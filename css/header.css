@@ -4,7 +4,7 @@
     height: 100vh;
     padding: 0 10vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 50px;
 }
@@ -22,9 +22,12 @@
     font-weight: 400;
 }
 
-.brand-name span{
-    color: #2e484f;
-}
+.brand-name {
+    background: rgb(74,67,181);
+    background: linear-gradient(68deg, rgba(74,67,181,1) 0%, rgba(215,90,90,1) 48%, rgba(209,102,178,1) 100%); 
+    padding: 15px;
+    border-radius: 5px;
+    }
 .btn{
     color: #663938;
     text-decoration: none;
