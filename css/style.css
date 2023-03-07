@@ -1,0 +1,32 @@
+@import url(aboutme.css);
+@import url(header.css);
+@import url(navbar.css);
+@import url(projectcard.css);
+@import url(skills.css);
+@import url(timeline.css);
+@import url(contact.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:auto;
+    width: 100%;
+    position: relative;
+    background-color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+
+
+
+
