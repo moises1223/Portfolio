@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     </nav>
     <header class="header" id="home-section">
         <div class="content">
-            <h1 class="header-heading"> Hey, I am <span class="brand-name"> Modern <span>web</span></span></h1>
+            <h1 class="header-heading"> Hey, I am <span class="brand-name"> Moisés <span>Souza</span></span></h1>
             <a href="#" class="btn"> Hire</a>
         </div>
 
@@ -66,62 +66,71 @@
 
 
     </section>
-    <h2 class="sub-heading"> skills</h2>
 
-    <div class="skills">
-        <p class="skill-name">HTML</p>
-        <p class="skill-name">CSS</p>
-        <p class="skill-name">JavaScript</p>
-        <p class="skill-name">Node.js</p>
-        <p class="skill-name">My SQL</p>
-        <p class="skill-name">Linux</p>
-        <p class="skill-name">Frontend Development</p>
-        <p class="skill-name">More</p>
-    </div>
+    <section class="skills-section">
+        <h2 class="sub-heading"> skills</h2>
+
+        <div class="skills">
+            <p class="skill-name">HTML</p>
+            <p class="skill-name">CSS</p>
+            <p class="skill-name">JavaScript</p>
+            <p class="skill-name">Node.js</p>
+            <p class="skill-name">My SQL</p>
+            <p class="skill-name">Linux</p>
+            <p class="skill-name">Frontend Development</p>
+            <p class="skill-name">More</p>
+        </div>
+
+    </section>
 
     <!-- time line -->
 
+    <section class="timeline-section">
+        <h2 class="sub-heading"> Education and experiences</h2>
 
-    <h2 class="sub-heading"> Education and experiences</h2>
-
-    <div class="timeline-container">
-        <div class="card-container">
-            <div class="card">
-                <h1 class="card-title">Nov 2020 - Dec 2021</h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum obcaecati.
-                    Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+        <div class="timeline-container">
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Nov 2020 - Dec 2021</h1>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum
+                        obcaecati.
+                        Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Jan 2022 - Now </h1>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum
+                        obcaecati.
+                        Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Jan 2022 - Now </h1>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum
+                        obcaecati.
+                        Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Jan 2022 - Now </h1>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum
+                        obcaecati.
+                        Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Jan 2022 - Now </h1>
+                    <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum
+                        obcaecati.
+                        Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
+                </div>
             </div>
         </div>
-        <div class="card-container">
-            <div class="card">
-                <h1 class="card-title">Jan 2022 - Now </h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum obcaecati.
-                    Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <h1 class="card-title">Jan 2022 - Now </h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum obcaecati.
-                    Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <h1 class="card-title">Jan 2022 - Now </h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum obcaecati.
-                    Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <h1 class="card-title">Jan 2022 - Now </h1>
-                <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, rerum obcaecati.
-                    Fuga officiis at libero dolore. Necessitatibus numquam ipsum rem?</p>
-            </div>
-        </div>
-    </div>
-
+    </section>
 
     <section id="project-section">
         <h1 class="heading">Projects</h1>
@@ -135,27 +144,41 @@
         <!-- cards -->
 
         <div class="project-container">
-            <img src="img/project-1.png" class="project-img" alt="">
-                        <span class="tags"> #javascript, #css, #fullstack</span>
-                    </div><div class="project-card">
+            <!-- <div class="project-card">
                 <div class="project-wrapper">
+
                     <div class="project-thumbnail">
                         <img src="img/close.png" class="close-btn" alt="">
-                        
+                        <img src="img/project-5.png" class="project-image" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
                     <div class="project-body">
                         <h1 class="project-name"> project 1</h1>
-                        <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eum et
+                        <p class="project-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eum
+                            et
                             veniam eos ratione accusantium aut, accusamus deserunt quis dolores.</p>
                         <a href="#" class="btn">github</a>
                         <a href="#" class="btn">see live</a>
                     </div>
                 </div>
-            </div>
+            </div>  card estão no JS sendo injetados via innerHTML-->
         </div>
     </section>
-    <script src="app.js"></script>
-    <script src="project.js"></script>
-    <span></span>
+    <section class="contact-section">
+        <h1 class="heading">Contact</h1>
+        <div class="form">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="Message" ></textarea>
+            <button class="contact-btn">Contact</button>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+    <script src="js/project.js"></script>
+
 </body>
 
 </html>

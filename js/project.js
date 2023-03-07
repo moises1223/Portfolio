@@ -5,8 +5,25 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#css'
     },
+    {
+        image: 'img/project-2.png',
+        name: 'project two',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#javascript'
+    },
+    {
+        image: 'img/project-5.png',
+        name: 'project one',
+        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+        github: '#',
+        live: '#',
+        tags: '#fullstack'
+    },
+
 
 ]
 
@@ -32,4 +49,4 @@ const createProjectCards = (data) => {
     
     `;
 }
-projectData.forEach(data=>createProjectCards(data)); 
+projectData.forEach(data => createProjectCards(data)); 
