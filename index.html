@@ -156,11 +156,18 @@
     <section id="contact-section">
         <h1 class="heading">Contact</h1>
         <form class="form" action="https://formspree.io/f/xleknykl" method="POST">
-            <input required type="text" name="nome" placeholder="Nome">
-            <input required type="email" name="email" placeholder="E-mail">
-            <input required type="text" name="subject" placeholder="Subject">
+            
+            <div class="styled-input">
+
+                <input class="Frmnome" required type="text" name="nome" placeholder="Name">
+                <input class="FrmEmail" required type="email" name="email" placeholder="E-mail">
+
+            </div>
+
+            <input class="FrmSubject" required type="text" name="subject" placeholder="Subject">
             <textarea required placeholder="Message" name="message"></textarea>
             <button type="submit" class="contact-btn">Contact</button>
+
         </form>
     </section>
 
