@@ -15,7 +15,7 @@
     flex-wrap: wrap;
 }
 
-input, textarea{
+input, textarea {
     width: 100%;
     height: 6vh;
     font-size: .9rem;
@@ -26,9 +26,12 @@ input, textarea{
     outline: none;
     /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
     border-style: none;
-    background-color: #3D3D3D;
+    background-color: hsla(0, 2%, 87%, 0.815);
 } 
-
+input::placeholder{
+    color: #0e0d0d9d;
+    font-weight: 600;
+}
 
 .contact-btn{
     width: 100%;
@@ -36,7 +39,7 @@ input, textarea{
     padding: 10px 20px;
     background: #606060;
     border-style: none;
-    color: #Fff;
+    color: #fff;
     cursor: pointer;
     border-radius: 5px;
     background: -webkit-linear-gradient(68deg, rgba(74, 67, 181, 1) 0%, rgba(215, 90, 90, 1) 48%, rgba(209, 102, 178, 1) 100%);
